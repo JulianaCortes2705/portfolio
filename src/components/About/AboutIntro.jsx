@@ -15,7 +15,7 @@ export default function AboutIntro() {
 
             <div className="relative overflow-hidden rounded-[2rem] border border-brand-mint/60 bg-white shadow-brand transition duration-300 group-hover:-translate-y-1 dark:bg-neutral-900">
               <Image
-                src="/juli-about.jpg"
+                src="/portfolio/juli-about.jpg"
                 alt="Juli Cortes portrait"
                 width={800}
                 height={960}
