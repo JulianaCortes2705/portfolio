@@ -44,7 +44,7 @@ export default function Hero() {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-brand-yellow/40 to-brand-mint/40 blur-2xl opacity-80 transition duration-500 group-hover:opacity-100" />
             <div className="relative overflow-hidden rounded-3xl shadow-brand transition duration-300 group-hover:-translate-y-2">
               <Image
-                src="/juli.JPG"
+                src="/juli.jpg"
                 alt="Juli Cortes portrait"
                 width={700}
                 height={820}
