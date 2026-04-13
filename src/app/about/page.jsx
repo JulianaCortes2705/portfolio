@@ -1,10 +1,18 @@
-export const metadata = {
-  title: 'Portfolio - About',
-  description: 'The about page of my portfolio.',
-}
+import AboutIntro from "../../components/About/AboutIntro";
+import ExperienceSection from "../../components/About/ExperienceSection";
+import SkillsSection from "../../components/About/SkillsSection";
 
-export default function About() {
+export const metadata = {
+  title: "Portfolio - About",
+  description: "About page of my portfolio.",
+};
+
+export default function AboutPage() {
   return (
-    <div>About</div>
+    <>
+      <AboutIntro />
+      <ExperienceSection />
+      <SkillsSection />
+    </>
   );
 }
